@@ -5,7 +5,7 @@ import joblib
 from sklearn.preprocessing import LabelEncoder
 
 # Load the trained model (without preprocessing)
-model = joblib.load(r"C:\Users\gunav\Desktop\employee_salary_prediction\best_model.pkl")
+model = joblib.load("best_model.pkl")
 
 # Load or define encoders for categorical columns (Replace these with your saved encoders if available)
 # For demo, we create and fit LabelEncoders with expected categories (must exactly match training!)
