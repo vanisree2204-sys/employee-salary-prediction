@@ -41,6 +41,8 @@ Live Deployment: [Click here to access the app](https://employee-salary-predicti
 ---
 
 ## 📂 Folder Structure
+
+
 employee-salary-prediction/
 │
 ├── app2.py                # Streamlit App
@@ -50,6 +52,7 @@ employee-salary-prediction/
 ├── README.md              # Project readme
 └── notebooks/
     └── model_building.ipynb   # Colab notebook for training
+ng
 
 ---
 
