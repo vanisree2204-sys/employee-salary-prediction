@@ -40,17 +40,6 @@ Live Deployment: [Click here to access the app](https://employee-salary-predicti
 
 ---
 
-## 🛠️ Installation and Usage
-
-### 📦 Requirements
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-
-streamlit run app2.py
-
 📂 Folder Structure
 employee-salary-prediction/
 │
@@ -66,14 +55,14 @@ employee-salary-prediction/
 To test batch prediction, use the file sample_input.csv provided in the repo.
 It contains the correct structure and columns expected by the model.
 
-### 📊 Model Performance
+## 📊 Model Performance
 
 - **Accuracy:** 85.77%  
 - **Best Model:** Gradient Boosting Classifier
 
 ---
 
-### 📚 References
+## 📚 References
 
 - UCI Adult Dataset  
 - Streamlit Documentation  
@@ -81,26 +70,26 @@ It contains the correct structure and columns expected by the model.
 
 ---
 
-### 🤝 Contributing
+## 🤝 Contributing
 
 Feel free to fork this repo and suggest improvements or open issues. PRs are welcome!
 
 ---
 
-### 🧑‍💻 Author
+## 🧑‍💻 Author
 
 **Vani Sree**  
 [GitHub Profile](https://github.com/vanisree2204-sys)
 
 ---
 
-### 📌 License
+## 📌 License
 
 This project is licensed under the MIT License.
 
 ---
 
-### 🎉 Thank You!
+## 🎉 Thank You!
 
 > **Thank you for checking out my Employee Salary Prediction project!**  
 > I hope this app helps you explore how machine learning can make data-driven decisions easier and more accessible.  
