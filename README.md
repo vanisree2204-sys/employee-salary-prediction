@@ -40,7 +40,7 @@ Live Deployment: [Click here to access the app](https://employee-salary-predicti
 
 ---
 
-📂 Folder Structure
+## 📂 Folder Structure
 employee-salary-prediction/
 │
 ├── app2.py                # Streamlit App
@@ -51,7 +51,9 @@ employee-salary-prediction/
 └── notebooks/
     └── model_building.ipynb   # Colab notebook for training
 
-📄 Sample Input File
+---
+
+## 📄 Sample Input File
 To test batch prediction, use the file sample_input.csv provided in the repo.
 It contains the correct structure and columns expected by the model.
 
