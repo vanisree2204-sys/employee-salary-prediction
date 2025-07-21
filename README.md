@@ -39,9 +39,8 @@ Live Deployment: [Click here to access the app](https://employee-salary-predicti
 | Deployment     | Streamlit Cloud                  |
 
 ---
-## 🛠️ Installation and Usage
 
-### 📦 Requirements
+## 🛠️ Installation and Usage
 
 Install dependencies:
 
