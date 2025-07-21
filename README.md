@@ -61,29 +61,9 @@ employee-salary-prediction/
 └── notebooks/
     └── model_building.ipynb   # Colab notebook for training
 
-sample_input_file
-  description: "To test batch prediction, use the file sample_input.csv provided in the repo. It contains the correct structure and columns expected by the model."
-  data:
-    - age: 39
-      workclass: "State-gov"
-      education: "Bachelors"
-      marital_status: "Never-married"
-      occupation: "Adm-clerical"
-      relationship: "Not-in-family"
-      race: "White"
-      sex: "Male"
-      hours_per_week: 40
-      native_country: "United-States"
-    - age: 50
-      workclass: "Self-emp-not-inc"
-      education: "Bachelors"
-      marital_status: "Married-civ-spouse"
-      occupation: "Exec-managerial"
-      relationship: "Husband"
-      race: "White"
-      sex: "Male"
-      hours_per_week: 13
-      native_country: "United-States"
+📄 Sample Input File
+To test batch prediction, use the file sample_input.csv provided in the repo.
+It contains the correct structure and columns expected by the model.
 
 ## 📊 Model Performance
 
