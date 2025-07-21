@@ -85,26 +85,38 @@ sample_input_file:
       hours_per_week: 13
       native_country: "United-States"
 
-model_performance:
+## model_performance:
   accuracy: 85.77%
   best_model: "Gradient Boosting Classifier"
 
-references:
+## references:
   - "UCI Adult Dataset"
   - "Streamlit Documentation"
   - "scikit-learn Documentation"
 
-contributing: "Feel free to fork this repo and suggest improvements or open issues. PRs are welcome!"
+## 🤝 Contributing
 
-author:
-  name: "Vani Sree"
-  github_profile: "https://github.com/vanisree2204-sys"
+Feel free to fork this repo and suggest improvements or open issues. PRs are welcome!
 
-license: "This project is licensed under the MIT License."
+---
 
-thank_you_note: |
-  Thank you for checking out my Employee Salary Prediction project!  
-  I hope this app helps you explore how machine learning can make data-driven decisions easier and more accessible.
+## 🧑‍💻 Author
 
-  Feel free to reach out if you have any questions, ideas, or want to collaborate.  
-  Happy coding and best of luck with your projects! 🚀😊
+**Vani Sree**  
+[GitHub Profile](https://github.com/vanisree2204-sys)
+
+---
+
+## 📌 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🎉 Thank You!
+
+> **Thank you for checking out my Employee Salary Prediction project!**  
+> I hope this app helps you explore how machine learning can make data-driven decisions easier and more accessible.  
+>  
+> Feel free to reach out if you have any questions, ideas, or want to collaborate.  
+> Happy coding and best of luck with your projects! 🚀😊
