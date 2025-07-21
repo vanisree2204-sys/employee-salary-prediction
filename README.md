@@ -40,7 +40,7 @@ Live Deployment: [Click here to access the app](https://employee-salary-predicti
 
 ---
 
-# Folder Structure
+## Folder Structure
 
 - employee-salary-prediction/
   - app2.py                # Streamlit App
