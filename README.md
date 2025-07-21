@@ -10,10 +10,8 @@ Built with **Python, Streamlit**, and **scikit-learn**.
 
 ---
 
-## 🚀 Demo
-
-![App Screenshot](https://your-screenshot-link-if-any.com)  
-> Live Deployment: [Click here to access the app](https://your-deployment-link.streamlit.app) *(Update after deployment)*
+## 🚀 Demo  
+> Live Deployment: [Click here to access the app](https://employee-salary-prediction-yagq4bbmmov5ut8w7egc56.streamlit.app/) *(Update after deployment)*
 
 ---
 
@@ -43,13 +41,14 @@ Built with **Python, Streamlit**, and **scikit-learn**.
 ---
 
 ## 🛠️ Installation and Usage
-
 ### 📦 Requirements
 
 Install dependencies:
+
+```bash
 pip install -r requirements.txt
-▶️ Run the App
-streamlit run app2.py
+*streamlit run app2.py
+**
 📂 Folder Structure
 employee-salary-prediction/
 │
@@ -60,22 +59,23 @@ employee-salary-prediction/
 ├── README.md              # Project readme
 └── notebooks/
     └── model_building.ipynb   # Colab notebook for training
+
 📄 Sample Input File
 To test batch prediction, use the file sample_input.csv provided in the repo.
 It contains the correct structure and columns expected by the model:
-
-csv
 age,workclass,education,marital_status,occupation,relationship,race,sex,hours_per_week,native_country
 39,State-gov,Bachelors,Never-married,Adm-clerical,Not-in-family,White,Male,40,United-States
 50,Self-emp-not-inc,Bachelors,Married-civ-spouse,Exec-managerial,Husband,White,Male,13,United-States
+
 📊 Model Performance
-Metric	Score
-Accuracy	85.77%
-Best Model	Gradient Boosting Classifier
+Accuracy: 85.77%
+Best Model: Gradient Boosting Classifier
 
 📚 Reference
 UCI Adult Dataset
+
 Streamlit Documentation
+
 scikit-learn Documentation
 
 🤝 Contributing
@@ -88,9 +88,12 @@ GitHub Profile
 📌 License
 This project is licensed under the MIT License.
 
-Let me know if you'd like:
-- A matching `sample_input.csv`
-- A deploy button
-- A fancy badge (accuracy badge, license, etc.)
+---
 
-Would you like the `sample_input.csv` file now?
+## 🎉 Thank You!
+
+Thank you for checking out my Employee Salary Prediction project!  
+I hope this app helps you explore how machine learning can make data-driven decisions easier and more accessible.
+
+Feel free to reach out if you have any questions, ideas, or want to collaborate.  
+Happy coding and best of luck with your projects! 🚀😊
