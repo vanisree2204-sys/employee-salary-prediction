@@ -11,7 +11,7 @@ Built with **Python, Streamlit**, and **scikit-learn**.
 ---
 
 ## 🚀 Demo  
-> Live Deployment: [Click here to access the app](https://employee-salary-prediction-yagq4bbmmov5ut8w7egc56.streamlit.app/) *(Update after deployment)*
+> Live Deployment: [Click here to access the app](https://employee-salary-prediction-yagq4bbmmov5ut8w7egc56.streamlit.app/) 
 
 ---
 
@@ -39,16 +39,17 @@ Built with **Python, Streamlit**, and **scikit-learn**.
 | Deployment      | Streamlit Cloud                     |
 
 ---
-
 ## 🛠️ Installation and Usage
+
 ### 📦 Requirements
 
 Install dependencies:
 
 ```bash
 pip install -r requirements.txt
-*streamlit run app2.py
-**
+Run the app:
+streamlit run app2.py
+
 📂 Folder Structure
 employee-salary-prediction/
 │
@@ -60,40 +61,50 @@ employee-salary-prediction/
 └── notebooks/
     └── model_building.ipynb   # Colab notebook for training
 
-📄 Sample Input File
-To test batch prediction, use the file sample_input.csv provided in the repo.
-It contains the correct structure and columns expected by the model:
-age,workclass,education,marital_status,occupation,relationship,race,sex,hours_per_week,native_country
-39,State-gov,Bachelors,Never-married,Adm-clerical,Not-in-family,White,Male,40,United-States
-50,Self-emp-not-inc,Bachelors,Married-civ-spouse,Exec-managerial,Husband,White,Male,13,United-States
+sample_input_file:
+  description: "To test batch prediction, use the file sample_input.csv provided in the repo. It contains the correct structure and columns expected by the model."
+  data:
+    - age: 39
+      workclass: "State-gov"
+      education: "Bachelors"
+      marital_status: "Never-married"
+      occupation: "Adm-clerical"
+      relationship: "Not-in-family"
+      race: "White"
+      sex: "Male"
+      hours_per_week: 40
+      native_country: "United-States"
+    - age: 50
+      workclass: "Self-emp-not-inc"
+      education: "Bachelors"
+      marital_status: "Married-civ-spouse"
+      occupation: "Exec-managerial"
+      relationship: "Husband"
+      race: "White"
+      sex: "Male"
+      hours_per_week: 13
+      native_country: "United-States"
 
-📊 Model Performance
-Accuracy: 85.77%
-Best Model: Gradient Boosting Classifier
+model_performance:
+  accuracy: 85.77%
+  best_model: "Gradient Boosting Classifier"
 
-📚 Reference
-UCI Adult Dataset
+references:
+  - "UCI Adult Dataset"
+  - "Streamlit Documentation"
+  - "scikit-learn Documentation"
 
-Streamlit Documentation
+contributing: "Feel free to fork this repo and suggest improvements or open issues. PRs are welcome!"
 
-scikit-learn Documentation
+author:
+  name: "Vani Sree"
+  github_profile: "https://github.com/vanisree2204-sys"
 
-🤝 Contributing
-Feel free to fork this repo and suggest improvements or open issues. PRs are welcome!
+license: "This project is licensed under the MIT License."
 
-🧑‍💻 Author
-Vani Sree
-GitHub Profile
+thank_you_note: |
+  Thank you for checking out my Employee Salary Prediction project!  
+  I hope this app helps you explore how machine learning can make data-driven decisions easier and more accessible.
 
-📌 License
-This project is licensed under the MIT License.
-
----
-
-## 🎉 Thank You!
-
-Thank you for checking out my Employee Salary Prediction project!  
-I hope this app helps you explore how machine learning can make data-driven decisions easier and more accessible.
-
-Feel free to reach out if you have any questions, ideas, or want to collaborate.  
-Happy coding and best of luck with your projects! 🚀😊
+  Feel free to reach out if you have any questions, ideas, or want to collaborate.  
+  Happy coding and best of luck with your projects! 🚀😊
