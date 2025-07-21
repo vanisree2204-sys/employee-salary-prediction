@@ -40,20 +40,6 @@ Live Deployment: [Click here to access the app](https://employee-salary-predicti
 
 ---
 
-## 🛠️ Installation and Usage
-
-### 📦 Requirements
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-
-Run the app:
-
-streamlit run app2.py
----
-
 ## 📂 Folder Structure
 employee-salary-prediction/
 │
