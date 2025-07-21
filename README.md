@@ -42,15 +42,15 @@ Live Deployment: [Click here to access the app](https://employee-salary-predicti
 
 # Folder Structure
 
-employee-salary-prediction/
-│
-├── app2.py # Streamlit App
-├── best_model.pkl # Trained ML model
-├── requirements.txt # Required Python libraries
-├── sample_input.csv # Sample batch input CSV file
-├── README.md # Project readme
-└── notebooks/
-└── model_building.ipynb # Colab notebook for training
+- employee-salary-prediction/
+  - app2.py                # Streamlit App
+  - best_model.pkl         # Trained ML model
+  - requirements.txt       # Required Python libraries
+  - sample_input.csv       # Sample batch input CSV file
+  - README.md              # Project readme
+  - notebooks/
+    - model_building.ipynb # Colab notebook for training
+
 
 
 ---
