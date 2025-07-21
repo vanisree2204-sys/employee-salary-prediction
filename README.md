@@ -2,43 +2,44 @@
 
 This project is a **Machine Learning-based web application** that predicts whether an individual's income is `<=50K` or `>50K` using demographic and professional data.
 
-It supports:
-- ✅ Single-entry prediction via a form
-- 📂 Batch prediction via CSV file upload
+It supports:  
+✅ Single-entry prediction via a form  
+📂 Batch prediction via CSV file upload  
 
-Built with **Python, Streamlit**, and **scikit-learn**.
+Built with **Python**, **Streamlit**, and **scikit-learn**.
 
 ---
 
 ## 🚀 Demo  
-> Live Deployment: [Click here to access the app](https://employee-salary-prediction-yagq4bbmmov5ut8w7egc56.streamlit.app/) 
+Live Deployment: [Click here to access the app](https://employee-salary-prediction-yagq4bbmmov5ut8w7egc56.streamlit.app/)
 
 ---
 
 ## 📌 Features
 
-- Trained on UCI Adult Income dataset.
-- Multiple ML models were tested:
-  - Logistic Regression
-  - K-Nearest Neighbors
-  - Random Forest Classifier
-  - Gradient Boosting Classifier ✅ *(Best performing model)*
-- Final model: **Gradient Boosting Classifier** with an accuracy of **85.77%**.
-- Batch and single prediction support.
+- Trained on UCI Adult Income dataset.  
+- Multiple ML models were tested:  
+  - Logistic Regression  
+  - K-Nearest Neighbors  
+  - Random Forest Classifier  
+  - Gradient Boosting Classifier ✅ *(Best performing model)*  
+- Final model: **Gradient Boosting Classifier** with an accuracy of **85.77%**.  
+- Batch and single prediction support.  
 - User-friendly UI with Streamlit.
 
 ---
 
 ## 🧠 Tech Stack
 
-| Category        | Tools/Frameworks Used               |
-|----------------|--------------------------------------|
-| Language        | Python                              |
-| ML Libraries    | scikit-learn, pandas, joblib         |
-| Visualization   | Streamlit                           |
-| Deployment      | Streamlit Cloud                     |
+| Category       | Tools/Frameworks Used               |
+| -------------- | --------------------------------- |
+| Language       | Python                            |
+| ML Libraries   | scikit-learn, pandas, joblib      |
+| Visualization  | Streamlit                        |
+| Deployment     | Streamlit Cloud                  |
 
 ---
+
 ## 🛠️ Installation and Usage
 
 ### 📦 Requirements
@@ -47,7 +48,7 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
-Run the app:
+
 streamlit run app2.py
 
 📂 Folder Structure
