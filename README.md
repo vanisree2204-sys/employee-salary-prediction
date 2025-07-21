@@ -61,7 +61,7 @@ employee-salary-prediction/
 └── notebooks/
     └── model_building.ipynb   # Colab notebook for training
 
-sample_input_file:
+sample_input_file
   description: "To test batch prediction, use the file sample_input.csv provided in the repo. It contains the correct structure and columns expected by the model."
   data:
     - age: 39
@@ -85,14 +85,20 @@ sample_input_file:
       hours_per_week: 13
       native_country: "United-States"
 
-## model_performance:
-  accuracy: 85.77%
-  best_model: "Gradient Boosting Classifier"
+## 📊 Model Performance
 
-## references:
-  - "UCI Adult Dataset"
-  - "Streamlit Documentation"
-  - "scikit-learn Documentation"
+- **Accuracy:** 85.77%  
+- **Best Model:** Gradient Boosting Classifier
+
+---
+
+## 📚 References
+
+- UCI Adult Dataset  
+- Streamlit Documentation  
+- scikit-learn Documentation  
+
+---
 
 ## 🤝 Contributing
 
