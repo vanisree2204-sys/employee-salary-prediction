@@ -39,6 +39,16 @@ Live Deployment: [Click here to access the app](https://employee-salary-predicti
 | Deployment     | Streamlit Cloud                  |
 
 ---
+## 🛠️ Installation and Usage
+
+### 📦 Requirements
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+
+---
 
 ## 📂 Folder Structure
 employee-salary-prediction/
